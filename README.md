@@ -1,5 +1,9 @@
 ## MEMBUAT SOCIAL NETWORK 'CLONE FB' DENGAN PHP & MYSQL
 
+https://github.com/gurnitha/php-facebook-clone
+
+Ini adalah latihan saya membuat social network berdasarkan kursus sy di udemy: 
+Build a Social Network in 20 Days from Scratch:PHP+MYSQL, Js  
 
 ### SECTION 1: Day 1: Course Intro: Info & Setup
 
@@ -36,3 +40,6 @@
 		│  ├── classes
 		│  └── database
 		└── views
+
+#### 5. Membuat Remote Github Repository
+
