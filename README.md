@@ -308,3 +308,19 @@ Build a Social Network in 20 Days from Scratch:PHP+MYSQL, Js
     	DONE :)
 
     	NEXT: #### 11. Understanding form submission process
+
+
+#### 11. Understanding form submission process
+        
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Theory
+
+        Understanding form submission process
+
+        submit > isset > $first_name > db
+
+        NEXT: #### 12. Connecting site with MYSQL database
