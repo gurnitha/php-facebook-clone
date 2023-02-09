@@ -43,3 +43,8 @@ Build a Social Network in 20 Days from Scratch:PHP+MYSQL, Js
 
 #### 5. Membuat Remote Github Repository
 
+
+### SECTION 2: Day 2: Create Sign Up with mobile or email and necessary file system
+
+
+
