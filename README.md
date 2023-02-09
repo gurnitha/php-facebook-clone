@@ -125,7 +125,7 @@ Build a Social Network in 20 Days from Scratch:PHP+MYSQL, Js
 		   </body>
 		</html>
 
-		NEXT: Design Sign up page
+		NEXT: #### 9. Design Sign up page
 
 
 #### 9. Design Sign up page
@@ -252,3 +252,59 @@ Build a Social Network in 20 Days from Scratch:PHP+MYSQL, Js
 		    color: white;
 		    font-size: 18px;
 		}
+
+		NEXT: #### 10. Create birthday date using javascript
+
+
+#### 10. Create birthday date using javascript
+        
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Add plugin
+        new file:   assets/js/jquery.js
+
+        3. Connect plugin and Create birthday date using javascript
+        modified:   signup.php
+
+                <script src="assets/js/jquery.js"></script>
+
+        <!--BIRTHDAY JAVASCRIPT CODE-->
+        <script>
+        for (i = new Date().getFullYear(); i > 1900; i--) {
+            //    2019,2018, 2017,2016.....1901
+            $("#years").append($('<option/>').val(i).html(i));
+
+        }
+        for (i = 1; i < 13; i++) {
+            $('#months').append($('<option/>').val(i).html(i));
+        }
+        updateNumberOfDays();
+
+        function updateNumberOfDays() {
+            $('#days').html('');
+            month = $('#months').val();
+            year = $('#years').val();
+            days = daysInMonth(month, year);
+            for (i = 1; i < days + 1; i++) {
+                $('#days').append($('<option/>').val(i).html(i));
+            }
+
+        }
+        $('#years, #months').on('change', function() {
+            updateNumberOfDays();
+        })
+
+        function daysInMonth(month, year) {
+            return new Date(year, month, 0).getDate();
+
+        }
+
+    	</script>
+
+
+    	DONE :)
+
+    	NEXT: #### 11. Understanding form submission process
