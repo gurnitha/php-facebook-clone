@@ -1,7 +1,11 @@
 <?php  
 
+// Load the db
+require 'connect/DB.php';
+
+
 if(isset($_POST['first-name']) && !empty($_POST['first-name'])){
-    
+
 }
 
 ?>
